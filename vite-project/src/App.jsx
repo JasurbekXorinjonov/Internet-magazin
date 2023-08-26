@@ -1,9 +1,10 @@
-import "./App.css";
+import Navbar from "./components/navbar/Navbar";
+import "./app.css";
 
 function App() {
   return (
     <>
-      <h1>Boshladim</h1>
+      <Navbar />
     </>
   );
 }
