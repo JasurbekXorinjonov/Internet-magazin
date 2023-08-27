@@ -1,7 +1,5 @@
 .container {
-  max-width: 1165px;
-  width: 100%;
-  margin: 0 auto;
+  width: 1164px;
   display: flex;
   padding-top: 20px;
   align-items: center;
@@ -12,6 +10,24 @@
 }
 .flex li {
   margin-left: 30px;
+}
+.flex li a {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+}
+.flex li a:hover {
+  color: #ed165f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  border-bottom: 1px solid #ed165f;
+  padding: 0 0 5px 0;
 }
 
 .search-input {
