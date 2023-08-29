@@ -1,15 +1,15 @@
 // import Header from "../header/Header";
+import Header from "../header/Header";
+import Main from "../main/Main";
 import Navbar from "../navbar/Navbar";
-import SimpleSlider from "../header/Header";
-import MaterialUISlider from "../header/Header";
 // import "./home.css";
 
 function Home() {
   return (
     <div className="container-home">
       <Navbar />
-      {/* <Header /> */}
-      <MaterialUISlider />
+      <Header />
+      <Main />
     </div>
   );
 }
